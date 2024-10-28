@@ -1,11 +1,4 @@
 /*
-Copyright (c) 2019 Anonymous@ICML2019
-
-Additional material for the "On the Equivalence of Convolutional and Hadamard Networks
-using DFT" paper.
-
-This code should not be made public at this time.
-
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
 INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
 PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
