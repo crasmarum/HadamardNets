@@ -51,7 +51,7 @@ activation.h
 
 data.h
 
-fft_10k_test.fft
+fft_10k_test.fft - input, you can re-create it via command "cat fft_10k_test.fft.tgz_* | tar xz"
 
 fullyconnected.h
 
