@@ -10,11 +10,14 @@ converging to a model.
 
  The main concepts from the corresponding paper are roughly mapped to code
  in the following way:
+ 
      1. A Hadamard net is a list of layers and it is implemented by the CpuNet
         class.
+        
      2. All layers are instances of the Layer class. They need to support
         the forward and the backward propagation, see for example the
         FullyConn::forward() and the FullyConn::backward() methods.
+        
      3. Tensors are simply arrays of complex numbers and they are implemented by the Data
         class. The Data class also keeps track of the Wirtinger gradients of the layer
         acting on its instances. For example, for the input tensor Z of the fully connected
