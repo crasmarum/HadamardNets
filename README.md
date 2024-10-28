@@ -31,7 +31,9 @@ Assuming you have the GNU C++ compiler installed, you can build and
 run the code as follows.
 
 cd src/
+
 g++ HadamardNet.cpp -o hadamard
+
 ./hadamard
 
 FILES:
