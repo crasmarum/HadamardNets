@@ -36,6 +36,37 @@ g++ HadamardNet.cpp -o hadamard
 
 ./hadamard
 
+If you run the program you should get this output:
+
+Creating test data from data/t10k-images.idx3-ubyte...
+read: 10000
+
+Writing FFT(input) to the data/fft_10k_test.fft file.
+
+	Note: will zero the first 5 frequencies.
+ 
+wrote 1000 entries.
+
+...
+
+Loading model model/94percent_mnist_h7x7.mod...
+
+789010 params: (1 x 784) -> FFT -> (1 x 784) -> H(100 x 49) -> (100 x 784) -> U -> (100 x 784) -> Fc(10 x 78400) -> (1 x 10) -> Out -> (1 x 10)
+
+reading data from data/fft_10k_test.fft...
+
+planes: 1 plane_size: 784
+
+read: 10000 entries.
+
+Computing model accuracy...
+
+Current accuracy for 1000 entries: 0.935000
+
+...
+
+Final accuracy: 0.942800 = 9428.000000 / 10000
+
 FILES:
 
 README.txt
